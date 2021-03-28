@@ -1,0 +1,31 @@
+{
+  "name": "meeting-server",
+  "version": "1.0.0",
+  "description": "Node server for meeting service",
+  "main": "index.js",
+  "scripts": {
+    "dev:setup": "node ./dev/setup.js",
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goori-soft/meeting-server.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "meeting"
+  ],
+  "author": "Lucas Machado Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goori-soft/meeting-server/issues"
+  },
+  "homepage": "https://github.com/goori-soft/meeting-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
