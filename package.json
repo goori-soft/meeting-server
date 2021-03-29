@@ -4,6 +4,7 @@
   "description": "Node server for meeting service",
   "main": "index.js",
   "scripts": {
+    "dev:start": "nodemon index.js",
     "dev:setup": "node ./dev/setup.js",
     "test": "node test.js",
     "start": "node index.js"
@@ -26,6 +27,10 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.7"
   }
 }

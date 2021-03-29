@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goori Soft Meeting</title>
+
+    <link href="css/main.css" rel="stylesheet"/>
 </head>
 <body>
-    It's working!
+    <div id="chat-message-container">
+        <div id="message-container">
+            
+            <div class="message-box-recieved">
+                <p class="message-meta"><span class="bold">userName</span> <span class="time">3:15 pm</span></p>
+                <p class="message-text">Um texto aqui</p>
+            </div>
+            
+            <div class="message-box-sent">
+                <p class="message-meta"><span class="bold">userName</span> <span class="time">3:15 pm</span></p>
+                <p class="message-text">Um texto aqui</p>
+            </div>
+        </div>
+
+        <div id="text-box-container">
+            <input />
+        </div>
+    </div>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -10,3 +10,6 @@ $ npm run dev:setup
 
 Este comando deve criar automaticamente um arquivo `.env` na raiz do projeto. Você pode alterar as variáveis de configuração deste arquivo para adequar o projeto ao seu ambiente de desenvolvimento.
 
+# Referências
+
+- [Realtime Chat With Users & Rooms - Socket.io, Node & Express](https://www.youtube.com/watch?v=jD7FnbI76Hg)
